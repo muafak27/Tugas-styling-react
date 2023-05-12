@@ -1,38 +1,43 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square&display=swap');
+
+.body {
+  /* padding: 0px 0px 10px 0px; */
+  /* background-color: rgb(100, 98, 98); */
+}
+/* Navbar */
+.Navbar {
+  background-color: whitesmoke;
+  
+  
+}
+.navbar1 {
+  font-family: 'Noto Sans Zanabazar Square', sans-serif;
+  font-size: 20px;
+  margin: 5px 150px;
+  padding: 5px;
+  /* background-color: rgb(100, 98, 98); */
+}
+.navbar2 {
+  padding: 5px;
+}
+/* Image */
+.Image1 {
+  height: 100vh;
+  background: url("../public/simpan1.png");
+}
+/* Blog Pribadi */
+ .container {
+  background-color: whitesmoke;
   text-align: center;
+  border-radius: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blogPribadi {
+  margin-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer */
+.footer {
+  background-color: whitesmoke;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
 }
